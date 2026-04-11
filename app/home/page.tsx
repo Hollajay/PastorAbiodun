@@ -1,9 +1,27 @@
 
+import About from "@/components/About"
+import Cta from "@/components/Cta"
+import Footer from "@/components/Footer"
+import Hero from "@/components/HeroSection"
+import Header from "@/components/Nav"
+import BlogPage from "../blog/page"
+import BooksSection from "@/components/Books"
+import ReviewsSection from "@/components/Review"
 
-const Home = () => {
+
+const HomePage = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <Hero/>      
+      <About/>
+      <BooksSection/>
+      <BlogPage/>
+      <ReviewsSection/>
+      <Cta/>
+      <Footer/>
+    </div>
   )
 }
 
-export default Home
+export default HomePage
