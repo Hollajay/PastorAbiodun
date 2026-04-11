@@ -1,4 +1,4 @@
-import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FaFacebook, FaInstagram, FaSpotify, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -56,7 +56,7 @@ const Footer = () => {
 
             {/* SOCIALS */}
             <div className="flex gap-6 mt-8 text-lg">
-              {[FiFacebook, FiTwitter, FiInstagram, FiLinkedin].map((Icon, i) => (
+              {[FaFacebook, FaTwitter, FaInstagram, FaSpotify, FaTelegram].map((Icon, i) => (
                 <div
                   key={i}
                   className="group cursor-pointer relative"
