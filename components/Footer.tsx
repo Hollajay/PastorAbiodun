@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaSpotify, FaTelegram, FaTwitter } from "react-icons/fa";
+// import { FaFacebook, FaInstagram, FaSpotify, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -55,7 +55,7 @@ const Footer = () => {
             </p>
 
             {/* SOCIALS */}
-            <div className="flex gap-6 mt-8 text-lg">
+            {/* <div className="flex gap-6 mt-8 text-lg">
               {[FaFacebook, FaTwitter, FaInstagram, FaSpotify, FaTelegram].map((Icon, i) => (
                 <div
                   key={i}
@@ -65,7 +65,7 @@ const Footer = () => {
                   <span className="absolute left-1/2 -bottom-2 w-1 h-1 bg-yellow-500 rounded-full opacity-0 group-hover:opacity-100 transition -translate-x-1/2" />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* NAVIGATION */}

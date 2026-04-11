@@ -2,15 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaSpotify,
-  FaPhone,
-  FaHamburger,
-  FaAirbnb,
-} from "react-icons/fa";
+// import {
+//   FaFacebook,
+//   FaInstagram,
+//   FaYoutube,
+//   FaSpotify,
+//   FaPhone,
+//   FaHamburger,
+//   FaAirbnb,
+// } from "react-icons/fa";
 
 export default function Header() {
   const [time, setTime] = useState("");
@@ -51,16 +51,16 @@ export default function Header() {
           
        
           <div className="flex items-center gap-1 text-black">
-            <FaPhone size={14} />
+            {/* <FaPhone size={14} /> */}
             <span>Hotline: +234 800 000 0000</span>
           </div>
 
           {/* Social Icons */}
           <div className="flex items-center gap-3">
-            <FaFacebook size={16} className="hover:text-blue-500 cursor-pointer" />
+            {/* <FaFacebook size={16} className="hover:text-blue-500 cursor-pointer" />
             <FaInstagram size={16} className="hover:text-pink-500 cursor-pointer" />
             <FaYoutube size={16} className="hover:text-red-500 cursor-pointer" />
-            <FaSpotify size={16} className="hover:text-green-400 cursor-pointer" />
+            <FaSpotify size={16} className="hover:text-green-400 cursor-pointer" /> */}
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Header() {
         {/* MOBILE MENU BUTTON */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(true)}>
-            <FaHamburger />
+            {/* <FaHamburger /> */}O
           </button>
         </div>
       </div>
@@ -111,7 +111,7 @@ export default function Header() {
         >
           {/* CLOSE */}
           <div className="flex justify-end mb-6">
-            <FaAirbnb onClick={() => setMenuOpen(false)} className="cursor-pointer" />
+            <span onClick={() => setMenuOpen(false)} className="cursor-pointer" />
           </div>
 
           {/* MENU ITEMS */}
