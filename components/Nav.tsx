@@ -2,15 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-// import {
-//   FaFacebook,
-//   FaInstagram,
-//   FaYoutube,
-//   FaSpotify,
-//   FaPhone,
-//   FaHamburger,
-//   FaAirbnb,
-// } from "react-icons/fa";
+
 
 export default function Header() {
   const [time, setTime] = useState("");
