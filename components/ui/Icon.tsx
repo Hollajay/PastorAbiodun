@@ -153,7 +153,7 @@ const Facebook = () => {
   );
 };
 
-const Icon = ({ width, height, fill, color, type }: IconProps) => {
+const Icon = ({type ,  width, height, fill, color}: IconProps) => {
   switch (type) {
     case "instagram":
       return <Instagram />;
@@ -173,3 +173,6 @@ const Icon = ({ width, height, fill, color, type }: IconProps) => {
       return <LinkedIn />;
   }
 };
+
+
+export default Icon;

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Icon from "./ui/Icon";
 
 
 export default function Header() {
@@ -47,13 +48,11 @@ export default function Header() {
             <span>Hotline: +234 800 000 0000</span>
           </div>
 
-          {/* Social Icons */}
+        
           <div className="flex items-center gap-3">
-            {/* <FaFacebook size={16} className="hover:text-blue-500 cursor-pointer" />
-            <FaInstagram size={16} className="hover:text-pink-500 cursor-pointer" />
-            <FaYoutube size={16} className="hover:text-red-500 cursor-pointer" />
-            <FaSpotify size={16} className="hover:text-green-400 cursor-pointer" /> */}
-          </div>
+            <Icon type="instagram" />
+            <Icon type="facebook" />
+            
         </div>
       </div>
 
