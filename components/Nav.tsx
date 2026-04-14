@@ -32,9 +32,9 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full max-w-7xl rounded-full mx-auto border-gray-300 border-b-[1px]  ">
+    <header className="w-full max-w-7xl py-6  mx-auto border-gray-300 border-b-[1px]  ">
 
-      <div className="bg-white  text-sm px-6 md:px-0 py-4 flex justify-between items-center">
+      <div className="bg-white  text-sm px-6 md:px-0 py-4 hidden md:flex justify-between items-center">
         
         
         <p className="opacity-80">{time}</p>
@@ -48,11 +48,13 @@ export default function Header() {
             <span>Hotline: +234 800 000 0000</span>
           </div>
 
-        
-          <div className="flex items-center gap-3">
-            <Icon type="instagram" />
+          {/* Social Icons */}
+          <div className=" items-center gap-3 hidden md:flex">
+            <Icon type="instagram" /> 
             <Icon type="facebook" />
-            
+            <Icon type="spotify" />
+            <Icon type="telegram" />           
+          </div>
         </div>
       </div>
 
@@ -84,7 +86,7 @@ export default function Header() {
         {/* MOBILE MENU BUTTON */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(true)}>
-            {/* <FaHamburger /> */}O
+            <Icon type="menu" />
           </button>
         </div>
       </div>
@@ -102,7 +104,7 @@ export default function Header() {
         >
           {/* CLOSE */}
           <div className="flex justify-end mb-6">
-            <span onClick={() => setMenuOpen(false)} className="cursor-pointer" />
+            <span onClick={() => setMenuOpen(false)} className="cursor-pointer" ><Icon type="x" /> </span>
           </div>
 
           {/* MENU ITEMS */}

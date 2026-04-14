@@ -2,13 +2,13 @@ interface IconProps {
   width?: string;
   height?: string;
   fill?: string;
-  color: string;
+  color?: string;
   type: string;
 }
 
 type SingleProps = Omit<IconProps, "type">;
 
-const Instagram = ({width, height}: SingleProps) => {
+const Instagram = ({ width, height }: SingleProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,47 @@ const Facebook = () => {
   );
 };
 
-const Icon = ({type ,  width, height, fill, color}: IconProps) => {
+const Menu = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+    >
+      <path
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M5 8h22M5 16h22M5 24h22"
+      />
+    </svg>
+  );
+};
+
+const XIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+        d="M6.758 17.243L12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243"
+      />
+    </svg>
+  );
+};
+
+const Icon = ({ type, width, height, fill, color }: IconProps) => {
   switch (type) {
     case "instagram":
       return <Instagram />;
@@ -171,8 +211,11 @@ const Icon = ({type ,  width, height, fill, color}: IconProps) => {
       return <Telegram />;
     case "linkedin":
       return <LinkedIn />;
+    case "menu":
+      return <Menu />;
+    case 'x':
+        return <XIcon />;
   }
 };
-
 
 export default Icon;

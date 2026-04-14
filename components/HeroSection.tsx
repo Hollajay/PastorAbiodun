@@ -34,7 +34,7 @@ export default function Page() {
 
   return (
     <main className=" text-black  font-sans ">
-      <section className="max-w-7xl mx-auto h-screen flex flex-col md:flex-row items-center justify-between ">
+      <section className="max-w-7xl px-6 mt-12 mx-auto h-screen flex flex-col md:flex-row items-center justify-between ">
         <div className="flex flex-col items-start justify-center ">
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
