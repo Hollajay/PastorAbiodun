@@ -7,7 +7,7 @@ const Cta = () => {
           LISTEN & GROW
         </p>
 
-        <h2 className="text-2xl md:text-3xl font-light mb-6">
+        <h2 className="text-2xl md:text-3xl font-light mb-6 text bg-yellow-500">
           Continue the Journey
         </h2>
 
@@ -20,7 +20,7 @@ const Cta = () => {
           <a
             href="https://t.me/saabiodunmessages"
             target="_blank"
-            className="border border-black px-6 py-3 hover:bg-black hover:text-white transition"
+            className="border border-black text-black px-6 py-3 hover:bg-black hover:text-white transition"
           >
             Telegram Channel
           </a>
@@ -28,7 +28,7 @@ const Cta = () => {
           <a
             href="https://open.spotify.com/show/6dgwo0y5IPEUIfn7Jk2j5A"
             target="_blank"
-            className="border border-black px-6 py-3 hover:bg-black hover:text-white transition"
+            className="border text-black border-black px-6 py-3 hover:bg-black hover:text-white transition"
           >
             Spotify
           </a>
