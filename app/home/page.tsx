@@ -11,7 +11,7 @@ import ReviewsSection from "@/components/Review"
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Header/>
       <Hero/>      
       <About/>

@@ -33,7 +33,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full max-w-7xl py-6  mx-auto border-gray-300 border-b-[1px]  bg-white">
+    <header className="w-full max-w-7xl py-4 md:py-6  mx-auto border-gray-300 border-b-[1px]  bg-white">
 
       <div className="  text-sm px-6 md:px-0 py-4 hidden md:flex justify-between items-center">
         

@@ -162,8 +162,8 @@ const Menu = () => {
       viewBox="0 0 32 32"
     >
       <path
-        fill="none"
-        stroke="currentColor"
+        fill="#000000"
+        stroke="#000000"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"
@@ -182,8 +182,8 @@ const XIcon = () => {
       viewBox="0 0 24 24"
     >
       <path
-        fill="none"
-        stroke="currentColor"
+        fill="#000000"
+        stroke="#000000"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
