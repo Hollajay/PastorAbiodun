@@ -7,7 +7,7 @@ const Cta = () => {
           LISTEN & GROW
         </p>
 
-        <h2 className="text-2xl md:text-3xl font-light mb-6 text bg-yellow-500">
+        <h2 className="text-2xl md:text-3xl font-light mb-6 text text-yellow-500">
           Continue the Journey
         </h2>
 
