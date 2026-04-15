@@ -33,7 +33,7 @@ export default function Page() {
   }, []);
 
   return (
-    <main className=" text-black  font-sans ">
+    <main className=" text-black  font-sans bg-white ">
       <section className="max-w-7xl px-6 mt-12 mx-auto h-screen flex flex-col md:flex-row items-center justify-between ">
         <div className="flex flex-col items-start justify-center ">
           <motion.h1
@@ -63,7 +63,7 @@ export default function Page() {
             width={500}
             height={700}
             className="object-fit"
-            src={"/img/pastor3.jpg"}
+            src={"/img/abiodun.jpeg"}
             alt="pastor photo"
           />
         </div>

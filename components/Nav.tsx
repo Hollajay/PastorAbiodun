@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Icon from "./ui/Icon";
+import Image from "next/image";
 
 
 export default function Header() {
@@ -32,9 +33,9 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="w-full max-w-7xl py-6  mx-auto border-gray-300 border-b-[1px]  ">
+    <header className="w-full max-w-7xl py-6  mx-auto border-gray-300 border-b-[1px]  bg-white">
 
-      <div className="bg-white  text-sm px-6 md:px-0 py-4 hidden md:flex justify-between items-center">
+      <div className="  text-sm px-6 md:px-0 py-4 hidden md:flex justify-between items-center">
         
         
         <p className="opacity-80">{time}</p>
@@ -61,11 +62,9 @@ export default function Header() {
       
       <div className=" w-full bg-white">
       <div className="px-6 md:px-0 py-4 flex justify-between items-center ">
-
-        {/* LOGO */}
-        <h1 className="text-xl md:text-2xl font-bold text-black">
-          Pastor S.A Abiodun
-        </h1>
+         <div className="">
+          <Image width={150} height={60} src={'/img/logo.png'} alt="" className="object-fit" />
+         </div>
 
         {/* DESKTOP MENU */}
         <nav className="hidden md:flex gap-8 text-black font-medium">

@@ -2,7 +2,7 @@
 
 const Cta = () => {
   return (
-    <section className="border-t border-neutral-200 py-20 text-center px-6">
+    <section className="border-t border-neutral-200 py-20 text-center px-6 bg-white">
         <p className="text-[11px] tracking-[0.4em] text-neutral-500 mb-6">
           LISTEN & GROW
         </p>

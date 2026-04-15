@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function ReviewsSection() {
   return (
-    <section className="relative text-black py-28">
+    <section className="relative text-black py-28 bg-white">
 
  
   <div className="hidden md:block absolute inset-0">
