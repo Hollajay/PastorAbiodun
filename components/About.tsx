@@ -6,10 +6,10 @@ import Image from "next/image";
 const About = () => {
   return (
     <section className="py-20 px-6  bg-white">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto flex flex-row-reverse items-center justify-between gap-16 items-center">
 
         {/* TEXT SIDE */}
-        <div>
+        <div className="w-full md:w-1/2">
           <p className="text-sm tracking-[0.3em] text-neutral-500 mb-4">
             ABOUT
           </p>
@@ -41,11 +41,11 @@ const About = () => {
         {/* IMAGE SIDE */}
         <div className="relative">
           <Image
-            src="/img/pastor1.jpg"
-            width={500}
+            src="/img/abiodun3.jpeg"
+            width={600}
             height={600}
             alt="Pastor"
-            className="object-cover grayscale"
+            className="object-fit grayscale"
           />
 
           {/* subtle gold accent */}

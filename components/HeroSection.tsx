@@ -58,11 +58,11 @@ export default function Page() {
             Discover More
           </button>
         </div>
-        <div className="">
+        <div className="overflow-hidden">
           <Image
             width={500}
             height={700}
-            className="object-fit"
+            className="object-fit gray-scale-50 grayscale transition hover:scale-105"
             src={"/img/abiodun.jpeg"}
             alt="pastor photo"
           />
