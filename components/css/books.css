@@ -1,0 +1,11 @@
+.swiper {
+  padding-bottom: 70px;
+}
+.swiper-pagination-bullet {
+  background: #FFFFFF;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #eab308; /* yellow-500 */
+}

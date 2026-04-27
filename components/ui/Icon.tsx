@@ -193,6 +193,48 @@ const XIcon = () => {
   );
 };
 
+const LeftAngle = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#000000"
+        stroke="#00000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="m15 19l-7-7l7-7"
+      />
+    </svg>
+  );
+};
+
+const RightAngle = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#000000"
+        stroke="#000000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="m9 5l7 7l-7 7"
+      />
+    </svg>
+  );
+};
+
+
+
 const Icon = ({ type, width, height, fill, color }: IconProps) => {
   switch (type) {
     case "instagram":
@@ -215,6 +257,10 @@ const Icon = ({ type, width, height, fill, color }: IconProps) => {
       return <Menu />;
     case 'x':
         return <XIcon />;
+    case "leftangle":
+       return <LeftAngle/> 
+    case "rightangle":
+       return <RightAngle /> 
   }
 };
 
